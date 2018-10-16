@@ -14,4 +14,5 @@ items = [
 # ```
 
 number_of_words = items.select { |x| x[:type] == :book }.map  { |y| y[:words] }.reduce(:+)
-p number_of_words
+p number_of_words 
+
